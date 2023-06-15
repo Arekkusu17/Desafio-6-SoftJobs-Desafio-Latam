@@ -8,7 +8,7 @@ import cors from "cors";
 const app = express();
 
 // import file that contains the routes
-import myRouter from "./routes/route.js"
+import myRouter from "./routes/route.js";
 
 // middlewares
 import morgan from 'morgan';
